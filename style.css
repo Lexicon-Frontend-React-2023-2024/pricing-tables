@@ -68,7 +68,7 @@ body {
     * Om ni vill centrera knappen lägg till dessa regler då button-elementet är ett 
     *  inline element.
     *   display: block;
-    *    margin: 0 auto;
+    *   margin: 0 auto;
     */
 }
 
