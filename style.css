@@ -1,5 +1,24 @@
+/*
+*  ======= flexbox css =======
+*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.card {
+    flex: 0 0 250px;
+}
+/*
+*
+*   'flex: 0 0 250px;'  shorthand css for this!!!
+*   https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
+*   https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink
+*   https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis
+*   ==== End flexbox css ====
+*/
 
 
 
@@ -10,7 +29,9 @@
 body {
     margin: 0;
 }
-
+.cards {
+    min-height: 100vh;
+}
 .card {
     background-color: #f2f2f2;
     margin: 12px;
@@ -43,5 +64,9 @@ body {
     margin-left: 12px;
     border-radius: 7px;
     background-color: #d8d5d5;
+}
+
+.card-big {
+    transform: scaleX(1.12);
 }
 /* End visualize code*/
