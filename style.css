@@ -64,6 +64,12 @@ body {
     margin-left: 12px;
     border-radius: 7px;
     background-color: #d8d5d5;
+    /*
+    * Om ni vill centrera knappen lägg till dessa regler då button-elementet är ett 
+    *  inline element.
+    *   display: block;
+    *    margin: 0 auto;
+    */
 }
 
 .card-big {
